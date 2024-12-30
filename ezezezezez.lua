@@ -77,14 +77,6 @@ local TextLabel_3 = Instance.new("TextLabel")
 local UICorner_33 = Instance.new("UICorner")
 local TextLabel_4 = Instance.new("TextLabel")
 local UICorner_34 = Instance.new("UICorner")
-local Frame_10 = Instance.new("Frame")
-local TimeGui = Instance.new("ScreenGui")
-local Clock = Instance.new("Frame")
-local Time = Instance.new("TextLabel")
-local Date = Instance.new("TextLabel")
-local Sec = Instance.new("TextButton")
-local Hr24 = Instance.new("TextButton")
-local Hr12 = Instance.new("TextButton")
 
 --Properties:
 
@@ -528,89 +520,9 @@ TextLabel_4.TextSize = 14.000
 
 UICorner_34.Parent = TextLabel_4
 
-Frame_10.Parent = aslancheats
-Frame_10.BackgroundColor3 = Color3.fromRGB(157, 157, 157)
-Frame_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Frame_10.BorderSizePixel = 0
-Frame_10.Position = UDim2.new(0.236453205, 0, 0.615929186, 0)
-Frame_10.Size = UDim2.new(0, 336, 0, 100)
-
-TimeGui.Name = "TimeGui"
-TimeGui.Parent = game.Workspace.ScreenGui.aslancheats.Frame.ClockSystem
-
-Clock.Name = "Clock"
-Clock.Parent = Frame_10
-Clock.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Clock.Position = UDim2.new(0.125357121, 0, -0.25, 50)
-Clock.Size = UDim2.new(0, 250, 0, 50)
-Clock.ZIndex = 6
-Clock.Style = Enum.FrameStyle.RobloxRound
-
-Time.Name = "Time"
-Time.Parent = Clock
-Time.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Time.Position = UDim2.new(0.5, 0, 0.25, 0)
-Time.Font = Enum.Font.SourceSansBold
-Time.Text = "12:00:00 AM"
-Time.TextColor3 = Color3.fromRGB(255, 255, 255)
-Time.TextSize = 36.000
-Time.TextTransparency = 1.000
-
-Date.Name = "Date"
-Date.Parent = Clock
-Date.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Date.Position = UDim2.new(0.5, 0, 0.899999976, 0)
-Date.Font = Enum.Font.SourceSansBold
-Date.Text = "January 1, 1970"
-Date.TextColor3 = Color3.fromRGB(255, 255, 255)
-Date.TextSize = 14.000
-Date.TextTransparency = 1.000
-
-Sec.Name = "Sec"
-Sec.Parent = Clock
-Sec.BackgroundTransparency = 1.000
-Sec.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Sec.BorderSizePixel = 0
-Sec.Position = UDim2.new(0.75, 0, 1, 10)
-Sec.Size = UDim2.new(0.25, 0, 0, 20)
-Sec.AutoButtonColor = false
-Sec.Font = Enum.Font.ArialBold
-Sec.Text = "Seconds"
-Sec.TextColor3 = Color3.fromRGB(255, 255, 255)
-Sec.TextSize = 12.000
-Sec.TextTransparency = 1.000
-
-Hr24.Name = "Hr24"
-Hr24.Parent = Clock
-Hr24.BackgroundTransparency = 1.000
-Hr24.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Hr24.BorderSizePixel = 0
-Hr24.Position = UDim2.new(0.25, 0, 1, 10)
-Hr24.Size = UDim2.new(0.25, 0, 0, 20)
-Hr24.AutoButtonColor = false
-Hr24.Font = Enum.Font.ArialBold
-Hr24.Text = "24 Hr"
-Hr24.TextColor3 = Color3.fromRGB(255, 255, 255)
-Hr24.TextSize = 12.000
-Hr24.TextTransparency = 1.000
-
-Hr12.Name = "Hr12"
-Hr12.Parent = Clock
-Hr12.BackgroundTransparency = 1.000
-Hr12.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Hr12.BorderSizePixel = 0
-Hr12.Position = UDim2.new(0, 0, 1, 10)
-Hr12.Size = UDim2.new(0.25, 0, 0, 20)
-Hr12.AutoButtonColor = false
-Hr12.Font = Enum.Font.ArialBold
-Hr12.Text = "12 Hr"
-Hr12.TextColor3 = Color3.fromRGB(255, 255, 255)
-Hr12.TextSize = 12.000
-Hr12.TextTransparency = 1.000
-
 -- Scripts:
 
-local function XZWXVLJ_fake_script() -- TextButton.LocalScript 
+local function IXQSWLA_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local button = script.Parent
@@ -624,8 +536,8 @@ local function XZWXVLJ_fake_script() -- TextButton.LocalScript
 	
 	
 end
-coroutine.wrap(XZWXVLJ_fake_script)()
-local function JSMGKMQ_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(IXQSWLA_fake_script)()
+local function DVDWXY_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local button = script.Parent
@@ -657,8 +569,8 @@ local function JSMGKMQ_fake_script() -- TextButton.LocalScript
 	button.MouseButton1Click:Connect(onMouseClick)
 	
 end
-coroutine.wrap(JSMGKMQ_fake_script)()
-local function HODX_fake_script() -- aslancheats.LocalScript 
+coroutine.wrap(DVDWXY_fake_script)()
+local function ILSLHR_fake_script() -- aslancheats.LocalScript 
 	local script = Instance.new('LocalScript', aslancheats)
 
 	ui = script.Parent
@@ -666,227 +578,4 @@ local function HODX_fake_script() -- aslancheats.LocalScript
 	ui.Active = true
 	ui.Selectable = true
 end
-coroutine.wrap(HODX_fake_script)()
-local function OWYMP_fake_script() -- Frame_10.ClockSystem 
-	local script = Instance.new('Script', Frame_10)
-
-	--	Only have ONE (1) of these scripts in your game!
-	--	Place the clocks anywhere in your game. Any parent, any position, any rotation
-	--		The script here is designed to go and find it
-	
-	local clocks = {}
-	
-	function getClocks()
-		function scan(p)
-			for _,v in pairs(p:GetChildren()) do
-				if ((v:IsA("Model")) and (v:findFirstChild("ThisIsAClock"))) then
-					local pos = Instance.new("Vector3Value",v)
-					pos.Name = "Pos"
-					pos.Value = v.Pole.Position
-					v.Parent = nil
-					script.ClockMain:clone().Parent = v
-					table.insert(clocks,v)
-				end
-				scan(v)
-			end
-		end
-		scan(game.Workspace)
-	end
-	
-	function giveClocks(p)
-		for _,v in pairs(clocks) do
-			local clock = v:clone()
-			clock:MoveTo(Vector3.new(10000,10000,10000))
-			clock.Parent = game.Workspace
-			clock:MakeJoints()
-			local main = clock.ClockMain
-			main.Parent = p.Character
-			main.Clock.Value = clock
-		end
-	end
-	
-	getClocks()
-	
-	game.Players.PlayerAdded:connect(function(p)
-		p.CharacterAdded:connect(function()
-			while (not p:findFirstChild("PlayerGui")) do wait() end
-			script.TimeGui:clone().Parent = p.PlayerGui
-			script.Clean:clone().Parent = p.Character
-			wait(0.1)
-			giveClocks(p)
-		end)
-	end)
-end
-coroutine.wrap(OWYMP_fake_script)()
-local function XGQBA_fake_script() -- nil.ClockMain 
-	local script = Instance.new('LocalScript', nil)
-
-	local cam = game.Workspace.CurrentCamera
-	repeat wait() until (script.Clock.Value)
-	local clock = script.Clock.Value
-	clock.Parent = cam
-	clock:MakeJoints()
-	clock.PrimaryPart = clock.Pole
-	clock:MoveTo(clock.Pos.Value)
-	
-	function start()
-		while (true) do
-			local t = tick()
-			local sec = (t%60)
-			local min = ((t/60)%60)
-			local hour = ((t/3600)%24)
-			hour = (hour > 12 and (hour-12) or hour)
-			local hourAngle = (360*(hour/12))+90
-			local minuteAngle = (360*(min/60))+90
-			local secondAngle = (360*(sec/60))+90
-			clock.HourHand.CFrame = (clock.Center.CFrame*CFrame.Angles(0,math.rad(hourAngle),0))
-			clock.MinuteHand.CFrame = (clock.Center.CFrame*CFrame.Angles(0,math.rad(minuteAngle),0))
-			clock.SecondHand.CFrame = (clock.Center.CFrame*CFrame.Angles(0,math.rad(secondAngle),0))
-			wait()
-		end
-	end
-	
-	start()
-end
-coroutine.wrap(XGQBA_fake_script)()
-local function AEZEEN_fake_script() -- nil.Clean 
-	local script = Instance.new('LocalScript', nil)
-
-	local cam = game.Workspace.CurrentCamera
-	for _,v in pairs(cam:GetChildren()) do
-		if (v:findFirstChild("ThisIsAClock")) then
-			v:remove()
-		end
-	end
-	script:remove()
-end
-coroutine.wrap(AEZEEN_fake_script)()
-local function QAMUXHJ_fake_script() -- Clock.Main 
-	local script = Instance.new('LocalScript', Clock)
-
-	wait(0)
-	local t = tick()
-	
-	-- tick() returns the number of seconds since January 1st, 1970
-	-- Because this is a LocalScript, it will return the time based on your timezone
-	
-	-- Don't mess with anything in the script. The constants and variables are all mixed together
-	
-	local Type = 0		-- Manipulated by GUI	(0 = 12 hr, 1 = 24 hr)
-	local Sec = true	-- Manipulated by GUI
-	
-	local year = 1970
-	local month = 1
-	local day = 1
-	local Date = "January 1, 1970"
-	
-	local hour = 0
-	local min = 0
-	local sec = 0
-	local tag = "AM"
-	local Time = "12:00 AM"
-	
-	function getDate()
-		local months = {
-	--		{"MONTH", TOAL DAYS TO YEAR, DAYS}	<- Format
-			{"January",31,31};
-			{"February",59,28};
-			{"March",90,31};
-			{"April",120,30};
-			{"May",151,31};
-			{"June",181,30};
-			{"July",212,31};
-			{"August",243,31};
-			{"September",273,30};
-			{"October",304,31};
-			{"November",334,30};
-			{"December",365,31};
-		}
-		year = math.floor(1970+(t/31579200))
-		if ((year%4) == 0) then	-- Check for leap year
-			months[2][3] = 29
-			for i,v in pairs(months) do
-				if (i ~= 1) then
-					v[2] = (v[2]+1)
-				end
-			end
-		end
-		day = math.floor(((t/86400)%365.25)+1)	-- Get current day of the year. Starts at 0, so 1 is added	(365.25 is the average # of days in a year due to leap year)
-		for i,m in pairs(months) do
-			if ((m[2]-m[3]) <= day) then	-- Get month based on day
-				month = i
-			end
-		end
-		local m = months[month]
-		day = (day+m[3]-m[2])	-- Get day of the month
-		year,day = tostring(year),tostring(day)
-		local c,s = ", "," "	-- Comma, space
-		Date = (months[month][1] .. s .. day .. c .. year)
-	end
-	
-	function getTime()
-		local sec = math.floor((t%60))		-- Sec, Min, and Hour equations I actually got off of Google. Everything else was written by me
-		local min = math.floor((t/60)%60)
-		local hour = math.floor((t/3600)%24)
-		sec = tostring((sec < 10 and "0" or "") .. sec)
-		min = tostring((min < 10 and "0" or "") .. min)
-		tag = (Type == 0 and (hour < 12 and "AM" or "PM") or "")
-		hour = ((Type == 1 and hour < 10 and "0" or "") .. tostring(Type == 0 and (hour == 0 and 12 or hour > 12 and (hour-12) or hour) or hour))	-- Ternary operators FTW. Helps get rid of 'if then' stuff. Actually learned this off of Java programming:	z = (x == y ? "Yes" : "No")
-		local c,s = ":",(Type == 0 and " " or "")	-- Colon, (space if 12 hr clock)
-		Time = (hour .. c .. min .. (Sec and c .. sec or "") .. s .. tag)
-	end
-	
-	function display(start)
-		if (start) then
-			getDate()
-			getTime()
-			delay(0,function()
-				for i = 1,0,-0.05 do
-					script.Parent.Time.TextTransparency,script.Parent.Date.TextTransparency = i,i
-					wait()
-				end
-				script.Parent.Time.TextTransparency,script.Parent.Date.TextTransparency = 0,0
-			end)
-		end
-		script.Parent.Time.Text = Time	-- ORLY?
-		script.Parent.Date.Text = Date
-	end
-	
-	function buttons()
-		-- This is all the GUI handling stuff
-		local h12 = script.Parent.Hr12
-		local h24 = script.Parent.Hr24
-		local s = script.Parent.Sec
-		h12.MouseButton1Click:connect(function()
-			Type = 0
-			h12.Style,h24.Style = 1,2
-			h12.TextTransparency,h24.TextTransparency = 0,0.5
-		end)
-		h24.MouseButton1Click:connect(function()
-			Type = 1
-			h24.Style,h12.Style = 1,2
-			h24.TextTransparency,h12.TextTransparency = 0,0.5
-		end)
-		s.MouseButton1Click:connect(function()
-			Sec = (not Sec)	-- Fastest way to switch a boolean in lua
-			s.Style = (Sec and 1 or 2)
-			s.TextTransparency = (Sec and 0 or 0.5)
-		end)
-	end
-	
-	function start()
-		buttons()
-		display(true)
-		while (true) do
-			-- Simplicity FTW:
-			t = tick()
-			getDate()
-			getTime()
-			display()
-			wait()
-		end
-	end
-	
-	start()
-end
-coroutine.wrap(QAMUXHJ_fake_script)()
+coroutine.wrap(ILSLHR_fake_script)()
